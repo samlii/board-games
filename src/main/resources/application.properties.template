@@ -1,0 +1,13 @@
+spring.application.name=board-games
+
+# PostgreSQL connection
+spring.datasource.url=jdbc:postgresql://127.0.0.1:5435/board_games
+spring.datasource.username=
+spring.datasource.password=
+
+# Flyway configuration
+spring.flyway.enabled=true
+spring.flyway.locations=classpath:db/migration
+spring.flyway.schemas=public
+spring.flyway.baselineOnMigrate=true
+spring.flyway.baselineVersion=1.0
